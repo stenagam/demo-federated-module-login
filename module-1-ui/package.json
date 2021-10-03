@@ -1,10 +1,10 @@
 {
-  "name": "host-ui",
+  "name": "module-1-ui",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "dev": "webpack-cli serve --mode=development --port=5000"
+  "scripts" : {
+    "start" : "webpack-cli serve --mode=production --port 5001"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
