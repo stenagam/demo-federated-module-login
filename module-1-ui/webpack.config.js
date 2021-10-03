@@ -9,9 +9,12 @@ module.exports = {
       template: path.resolve("src/index.html"),
     }),
     new ModuleFederationPlugin({
-      name: "host",
-      remotes: {
-        module1: "module1@http://localhost:5001/remoteEntry.js",
+      name: "module1",
+      library: { type: "var", name: "module1" },
+      filename: "remoteEntry.js",
+      remotes: {},
+      exposes: {
+        "./Component1": "./src/component",
       },
       shared: {
         react: { singleton: true },
