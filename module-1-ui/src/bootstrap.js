@@ -4,7 +4,7 @@ import Component1 from "./component"
 
 const App = () => (
   <>
-    <h1>standalone app</h1>
+    <h1>Standalone App 1</h1>
     <Component1 />
   </>
 )
