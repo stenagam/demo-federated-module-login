@@ -1,7 +1,7 @@
 # Host 1 IDP (Keycloak)
 
 This is an example of preconfigured keycloak server that runs on port `8000`,
-have one OAuth 2 client configured with client ID `host1`.
+preconfigured to have a realm called `host1` and a OAuth 2 client ID `host1`.
 
 - Client ID: `host1` 
 - Authorization Endpoint: `http://localhost:8000/auth/realms/host1/protocol/openid-connect/auth`
