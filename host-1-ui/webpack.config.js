@@ -9,7 +9,7 @@ module.exports = {
       template: path.resolve("src/index.html"),
     }),
     new ModuleFederationPlugin({
-      name: "host",
+      name: "host1",
       remotes: {
         module1: "module1@http://localhost:5001/remoteEntry.js",
       },
