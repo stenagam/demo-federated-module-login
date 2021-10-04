@@ -4,7 +4,7 @@ import Component1 from "./component"
 
 const App = () => (
   <>
-    <h1>standalone app</h1>
+    <h1>Module 1 (standalone app)</h1>
     <Component1 />
   </>
 )
